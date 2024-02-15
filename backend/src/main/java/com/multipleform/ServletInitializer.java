@@ -1,4 +1,4 @@
-package com.multipleform.Form;
+package com.multipleform;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

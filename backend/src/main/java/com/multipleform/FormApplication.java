@@ -1,4 +1,4 @@
-package com.multipleform.Form;
+package com.multipleform;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

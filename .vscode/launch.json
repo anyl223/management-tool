@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-FormApplication<Form>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.multipleform.Form.FormApplication",
+      "projectName": "Form",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-FormApplication<Form>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.multipleform.FormApplication",
+      "projectName": "Form",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

@@ -31,9 +31,11 @@
  .custom_gradient {
     background: linear-gradient(135deg, #007bff, #8a2be2);
 }
-.custom_color {
-    background-color: blueviolet; /* Adjust the color value as needed */
+ .custom_color {
+		border-radius: 10px;
+		border-width: 10px;
+		
 }
 .btn{
-	background-color: red;
+	background-color: blue($color: #000000);
 }
