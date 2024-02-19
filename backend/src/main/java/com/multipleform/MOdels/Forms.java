@@ -1,7 +1,6 @@
 package com.multipleform.MOdels;
 
 import java.io.Serializable;
-import java.sql.Date;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -19,13 +18,13 @@ public class Forms implements Serializable {
     private long id;
     private String fullName;
     private String projectname;
-    private Number mobile;
+    private String mobile;
     private String Teamleader;
     private String project_manager;
     private String projectdirector;
     private String current_status;
-    private Date workassign;
-    private Date complete_project;
+    private String workassign;
+    private String complete_project;
 
     public long getId() {
         return id;
@@ -49,14 +48,6 @@ public class Forms implements Serializable {
 
     public void setProjectname(String projectname) {
         this.projectname = projectname;
-    }
-
-    public Number getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(Number mobile) {
-        this.mobile = mobile;
     }
 
     public String getTeamleader() {
@@ -91,20 +82,28 @@ public class Forms implements Serializable {
         this.current_status = current_status;
     }
 
-    public Date getWorkassign() {
+    public String getWorkassign() {
         return workassign;
     }
 
-    public void setWorkassign(Date workassign) {
+    public void setWorkassign(String workassign) {
         this.workassign = workassign;
     }
 
-    public Date getComplete_project() {
+    public String getComplete_project() {
         return complete_project;
     }
 
-    public void setComplete_project(Date complete_project) {
+    public void setComplete_project(String complete_project) {
         this.complete_project = complete_project;
+    }
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
     }
 
 }

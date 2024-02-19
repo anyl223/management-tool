@@ -1,4 +1,4 @@
-import FormTool from "@/Componenet/Form";
+import FormTool from "@/Componenet/FormReport";
 import React from "react";
 
 function form() {
